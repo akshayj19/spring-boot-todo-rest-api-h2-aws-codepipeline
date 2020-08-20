@@ -1,5 +1,4 @@
 version: 0.2
-
  phases:
   install:
     runtime-versions:
@@ -17,8 +16,7 @@ version: 0.2
     commands:
       - echo post_build
       
-      
-artifacts:
+  artifacts:
   files:
     - target\spring-boot-todo-rest-api-h2-aws-codepipeline-0.0.1-SNAPSHOT.jar
  
