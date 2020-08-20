@@ -1,4 +1,4 @@
-version: 0.4
+version: 0.2
 
  phases:
   install:
@@ -11,7 +11,7 @@ version: 0.4
       - echo pre_build
   build:
     commands:
-      - mvn_package
+      - mvn package
       - echo build
   post_build:
     commands:
